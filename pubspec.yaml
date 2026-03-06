@@ -1,0 +1,57 @@
+name: nakshatra_app
+description: "A new Flutter project."
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+ 
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.2
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^6.0.0
+
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - assets/images/logo.png
+    - assets/images/logo_2.png
+    - assets/images/bg_1.png
+    - assets/images/bg_2.png
+    - assets/images/model.jpg
+    - assets/images/loginbg.jpg
+    - assets/images/loginbg2.jpg
+    - assets/images/login5.png
+    - assets/images/cat2.png
+    - assets/images/necklace2.png
+    - assets/images/earring.png
+    - assets/images/rings.png
+    - assets/images/bracelet.png
+    - assets/images/wed5.png
+    - assets/images/product1.png
+    - assets/images/product2.png
+    - assets/images/product3.png
+    - assets/images/product5.png
+    
+
+  
