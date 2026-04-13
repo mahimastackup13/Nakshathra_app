@@ -4,8 +4,9 @@ import 'package:nakshatra_app/screens/home_screen.dart';
 import 'package:nakshatra_app/screens/splash_screen.dart';
 import 'package:nakshatra_app/screens/login_screen.dart';
 import 'package:nakshatra_app/screens/cart_screen.dart';
-// Assuming your CartScreen and Provider are in these paths
 import 'package:nakshatra_app/provider/cart_provider.dart';
+import 'package:nakshatra_app/screens/profile_screen.dart';
+import 'package:nakshatra_app/screens/settings_screen.dart';
 
 void main() {
   runApp(
@@ -36,6 +37,9 @@ class NakshathraApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/home': (context) => const HomeScreen(),
         '/cart': (context) => const CartScreen(),
+        '/profile': (context) => const ProfileScreen(),
+        '/settings': (context) => const SettingsScreen(),
+
       },
     );
   }
